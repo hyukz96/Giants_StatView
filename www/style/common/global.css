@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'giants';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../fonts/Giants-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'giants';
+    font-style: normal;
+    font-weight: bold;
+    src: url(../../fonts/Giants-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'giants';
+    font-style: italic;
+    src: url(../../fonts/Giants-Inline.ttf) format('truetype');
+}
+
+/**************** RESET ****************/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'giants';
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+ul::after, ol::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
