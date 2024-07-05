@@ -4,20 +4,20 @@
     font-family: 'giants';
     font-style: normal;
     font-weight: 400;
-    src: url(../../fonts/Giants-Regular.ttf) format('truetype');
+    src: url(fonts/Giants-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'giants';
     font-style: normal;
     font-weight: bold;
-    src: url(../../fonts/Giants-Bold.ttf) format('truetype');
+    src: url(fonts/Giants-Bold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'giants';
     font-style: italic;
-    src: url(../../fonts/Giants-Inline.ttf) format('truetype');
+    src: url(fonts/Giants-Inline.ttf) format('truetype');
 }
 
 /**************** RESET ****************/
