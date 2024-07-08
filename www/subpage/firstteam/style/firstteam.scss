@@ -13,7 +13,7 @@ article {
         flex-direction: column;
         gap: 20px;
         //공통사항
-        .callup, .senddown {
+        .pitcher, .catcher, .infielder, .outfielder {
             h2 {
                 font-size: 20px;
                 font-weight: bold;
@@ -38,30 +38,6 @@ article {
                             font-size: 18px;
                         }
                     }
-                }
-                #noCallup, #noSenddown {
-                    font-style: italic;
-                    text-align: center;
-                    padding: 40px 0;
-                    font-size: 20px;
-                }
-            }
-        }
-        //개별사항
-        .callup {
-            #details {
-                .info_wrap {
-                    .player_info {
-                        display: none;
-                    }
-                }
-            }
-        }
-
-        .senddown {
-            #details {
-                #noSenddown {
-                    display: none;
                 }
             }
         }

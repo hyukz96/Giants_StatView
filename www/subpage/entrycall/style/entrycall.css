@@ -20,6 +20,11 @@ article .content_wrap .callup #details, article .content_wrap .senddown #details
   padding: 10px 0;
   border-top: 5px solid #D00F31;
 }
+article .content_wrap .callup #details .info_wrap, article .content_wrap .senddown #details .info_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 article .content_wrap .callup #details .info_wrap .player_info, article .content_wrap .senddown #details .info_wrap .player_info {
   display: flex;
   flex-direction: column;

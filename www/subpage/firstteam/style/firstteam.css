@@ -1,0 +1,39 @@
+article {
+  padding: 10px;
+}
+article h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+article .content_wrap {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+article .content_wrap .pitcher h2, article .content_wrap .catcher h2, article .content_wrap .infielder h2, article .content_wrap .outfielder h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+article .content_wrap .pitcher #details, article .content_wrap .catcher #details, article .content_wrap .infielder #details, article .content_wrap .outfielder #details {
+  padding: 10px 0;
+  border-top: 5px solid #D00F31;
+}
+article .content_wrap .pitcher #details .info_wrap, article .content_wrap .catcher #details .info_wrap, article .content_wrap .infielder #details .info_wrap, article .content_wrap .outfielder #details .info_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+article .content_wrap .pitcher #details .info_wrap .player_info, article .content_wrap .catcher #details .info_wrap .player_info, article .content_wrap .infielder #details .info_wrap .player_info, article .content_wrap .outfielder #details .info_wrap .player_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+article .content_wrap .pitcher #details .info_wrap .player_info img, article .content_wrap .catcher #details .info_wrap .player_info img, article .content_wrap .infielder #details .info_wrap .player_info img, article .content_wrap .outfielder #details .info_wrap .player_info img {
+  width: 100px;
+}
+article .content_wrap .pitcher #details .info_wrap .player_info .name, article .content_wrap .catcher #details .info_wrap .player_info .name, article .content_wrap .infielder #details .info_wrap .player_info .name, article .content_wrap .outfielder #details .info_wrap .player_info .name {
+  font-size: 18px;
+}/*# sourceMappingURL=firstteam.css.map */
