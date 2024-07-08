@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+article {
+    padding: 10px;
+    h1 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .content_wrap {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        //공통사항
+        .callup, .senddown {
+            h2 {
+                font-size: 20px;
+                font-weight: bold;
+                padding-bottom: 10px;
+            }
+            #details {
+                padding: 10px 0;
+                border-top: 5px solid #D00F31;
+                .info_wrap {
+                    .player_info {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 3px;
+                        img {
+                            width: 100px;
+                        }
+                        .name {
+                            font-size: 18px;
+                        }
+                    }
+                }
+                #noCallup, #noSenddown {
+                    font-style: italic;
+                    text-align: center;
+                    padding: 40px 0;
+                    font-size: 20px;
+                }
+            }
+        }
+        //개별사항
+        .callup {
+            #details {
+                #noCallup {
+                    display: none;
+                }
+            }
+        }
+        .senddown {
+            #details {
+                .info_wrap {
+                    .player_info {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

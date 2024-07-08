@@ -1,0 +1,46 @@
+article {
+  padding: 10px;
+}
+article h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+article .content_wrap {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+article .content_wrap .callup h2, article .content_wrap .senddown h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+article .content_wrap .callup #details, article .content_wrap .senddown #details {
+  padding: 10px 0;
+  border-top: 5px solid #D00F31;
+}
+article .content_wrap .callup #details .info_wrap .player_info, article .content_wrap .senddown #details .info_wrap .player_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+article .content_wrap .callup #details .info_wrap .player_info img, article .content_wrap .senddown #details .info_wrap .player_info img {
+  width: 100px;
+}
+article .content_wrap .callup #details .info_wrap .player_info .name, article .content_wrap .senddown #details .info_wrap .player_info .name {
+  font-size: 18px;
+}
+article .content_wrap .callup #details #noCallup, article .content_wrap .callup #details #noSenddown, article .content_wrap .senddown #details #noCallup, article .content_wrap .senddown #details #noSenddown {
+  font-style: italic;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 20px;
+}
+article .content_wrap .callup #details #noCallup {
+  display: none;
+}
+article .content_wrap .senddown #details .info_wrap .player_info {
+  display: none;
+}/*# sourceMappingURL=entrycall.css.map */

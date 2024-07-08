@@ -6,6 +6,7 @@
     <title>Giants StatView - Call Up & Send Down</title>
 
     <link rel="stylesheet" href="../../common/global.css">
+    <link rel="stylesheet" href="style/entrycall.css">
 
     <script src="../../common/jquery-1.12.4.min.js"></script>
     <script type="text/javascript">
@@ -19,28 +20,34 @@
     
     <article>
         <h1>엔트리 등록/말소</h1>
-        <section class="callup">
-            <h2>등록</h2>
-            <div class="info_wrap">
-                <div class="player_info">
-                    <img src="" alt="">
-                    <p class="position"></p>
-                    <p class="name"></p>
+        <div class="content_wrap">
+            <section class="callup">
+                <h2>등록</h2>
+                <div id="details">
+                    <div class="info_wrap">
+                        <div class="player_info">
+                            <img src="../../common/images/infielder/hakju07.jpg" alt="금일 등록된 선수는 배번 7번 내야수 이학주 선수입니다.">
+                            <p class="position">No.7 내야수</p>
+                            <p class="name">이학주</p>
+                        </div>
+                    </div>
+                    <p id="noCallup">금일 등록된 선수가 없습니다.</p>
                 </div>
-            </div>
-            <p id="noCallup">금일 등록된 선수가 없습니다.</p>
-        </section>
-        <section class="senddown">
-            <h2>말소</h2>
-            <div class="info_wrap">
-                <div class="player_info">
-                    <img src="" alt="">
-                    <p class="position"></p>
-                    <p class="name"></p>
+            </section>
+            <section class="senddown">
+                <h2>말소</h2>
+                <div id="details">
+                    <div class="info_wrap">
+                        <div class="player_info">
+                            <img src="" alt="">
+                            <p class="position"></p>
+                            <p class="name"></p>
+                        </div>
+                    </div>
+                    <p id="noSenddown">금일 말소된 선수가 없습니다.</p>
                 </div>
-            </div>
-            <p id="noSenddown">금일 말소된 선수가 없습니다.</p>
-        </section>
+            </section>
+        </div>
     </article>
 </body>
 </html>
