@@ -6,11 +6,41 @@
     <title>Giants StatView - Call Up & Send Down</title>
 
     <link rel="stylesheet" href="../../common/global.css">
-    
+
+    <script src="../../common/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#headers").load("../../common/header/header.html");
+        });
+    </script>
 </head>
 <body>
-    <div w3-include-html="../../style/common/header/header.html"></div>
-
+    <div id="headers"></div>
     
+    <article>
+        <h1>엔트리 등록/말소</h1>
+        <section class="callup">
+            <h2>등록</h2>
+            <div class="info_wrap">
+                <div class="player_info">
+                    <img src="" alt="">
+                    <p class="position"></p>
+                    <p class="name"></p>
+                </div>
+            </div>
+            <p id="noCallup">금일 등록된 선수가 없습니다.</p>
+        </section>
+        <section class="senddown">
+            <h2>말소</h2>
+            <div class="info_wrap">
+                <div class="player_info">
+                    <img src="" alt="">
+                    <p class="position"></p>
+                    <p class="name"></p>
+                </div>
+            </div>
+            <p id="noSenddown">금일 말소된 선수가 없습니다.</p>
+        </section>
+    </article>
 </body>
 </html>

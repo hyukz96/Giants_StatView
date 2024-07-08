@@ -24,7 +24,7 @@ article .wrap h1 {
 article .wrap img {
   width: 300px;
 }
-article .wrap p {
+article .wrap a {
   width: -moz-fit-content;
   width: fit-content;
   padding: 5px 40px;
