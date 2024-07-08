@@ -47,17 +47,18 @@ article {
         //개별사항
         .callup {
             #details {
-                #noCallup {
-                    display: none;
-                }
-            }
-        }
-        .senddown {
-            #details {
                 .info_wrap {
                     .player_info {
                         display: none;
                     }
+                }
+            }
+        }
+
+        .senddown {
+            #details {
+                #noSenddown {
+                    display: none;
                 }
             }
         }
