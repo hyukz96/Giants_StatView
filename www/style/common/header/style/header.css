@@ -1,0 +1,54 @@
+header {
+  padding: 10px;
+  background-color: #041E42;
+  position: relative;
+}
+header .default {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .default h1 {
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  color: #fff;
+}
+header .default img {
+  height: 40px;
+}
+header nav {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #041E42;
+  transition: all 0.5s ease;
+}
+header nav .nav-wrap {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+}
+header nav .nav-wrap h2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+header nav .nav-wrap ul {
+  padding: 10px;
+}
+header nav .nav-wrap ul li {
+  float: none;
+  width: 100%;
+  padding: 5px 0;
+}
+header nav .nav-wrap ul li span {
+  display: none;
+  font-size: 12px;
+}/*# sourceMappingURL=header.css.map */
