@@ -33,4 +33,18 @@ document.addEventListener("DOMContentLoaded", function() {
             span.style.display = "none";
         });
     });
+
+    function goToPage(page) {
+        window.location.href = page;
+    }
+
+    document.getElementById("entry").addEventListener('click', function(){
+        goToPage('/subpage/entrycall/entrycall.html');
+    });
+    document.getElementById("firstTeam").addEventListener('click', function(){
+        goToPage('/subpage/firstteam/firstteam.html');
+    });
+    document.getElementById("futuresTeam").addEventListener('click', function(){
+        goToPage('/subpage/futuresteam/futuresteam.html');
+    });
 });
