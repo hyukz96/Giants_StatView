@@ -25,6 +25,7 @@ article .wrap img {
   width: 300px;
 }
 article .wrap a {
+  text-decoration: none;
   width: -moz-fit-content;
   width: fit-content;
   padding: 5px 40px;

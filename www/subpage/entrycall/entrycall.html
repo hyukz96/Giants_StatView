@@ -7,16 +7,30 @@
 
     <link rel="stylesheet" href="../../common/style/global.css">
     <link rel="stylesheet" href="style/entrycall.css">
+    <link rel="stylesheet" href="/www/common/header/style/header.css">
+    
 
-    <script src="/www/common/js/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#headers").load("/www/common/header/header.html");
-        });
-    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="/www/common/header/js/header.js"></script>
+    
 </head>
 <body>
-    <div id="headers"></div>
+    <header>
+        <div class="default">
+            <h1>StatView</h1>
+            <img id="toggle" src="/www/common/header/img/logo.png" alt="상단 메뉴바 버튼역할을 하는 롯데 자이언츠 로고입니다.">
+        </div>
+        
+        <nav class="mobile_nav">
+            <div class="nav-wrap">
+                <ul>
+                    <li id="entry"><span>▶</span> 엔트리 등록/말소 <span>◀</span></li>
+                    <li id="firstTeam"><span>▶</span> KBO 등록 현황 <span>◀</span></li>
+                    <li id="futuresTeam"><span>▶</span> 퓨처스리그 등록 현황 <span>◀</span></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     
     <article>
         <h1>엔트리 등록/말소</h1>
@@ -49,5 +63,6 @@
             </section>
         </div>
     </article>
+    
 </body>
 </html>

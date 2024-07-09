@@ -20,14 +20,13 @@ header {
         }
     }
 
-    nav {
-        display: none;
+    .mobile_nav {
         position: absolute;
-        top: 0;
+        top: -500%;
         left: 0;
         width: 100%;
         background-color: #041E42;
-        transition: all 0.5s ease;
+        transition: top 1s;
         .nav-wrap {
             display: flex;
             width: 100%;
@@ -55,4 +54,8 @@ header {
         }
         
     }
+}
+
+.nav-wrap ul li:hover span {
+    display: inline;
 }

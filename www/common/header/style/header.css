@@ -18,16 +18,15 @@ header .default h1 {
 header .default img {
   height: 40px;
 }
-header nav {
-  display: none;
+header .mobile_nav {
   position: absolute;
-  top: 0;
+  top: -500%;
   left: 0;
   width: 100%;
   background-color: #041E42;
-  transition: all 0.5s ease;
+  transition: top 1s;
 }
-header nav .nav-wrap {
+header .mobile_nav .nav-wrap {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -35,20 +34,24 @@ header nav .nav-wrap {
   align-items: center;
   text-align: center;
 }
-header nav .nav-wrap h2 {
+header .mobile_nav .nav-wrap h2 {
   font-weight: bold;
   font-size: 20px;
   padding: 10px;
 }
-header nav .nav-wrap ul {
+header .mobile_nav .nav-wrap ul {
   padding: 10px;
 }
-header nav .nav-wrap ul li {
+header .mobile_nav .nav-wrap ul li {
   float: none;
   width: 100%;
   padding: 5px 0;
 }
-header nav .nav-wrap ul li span {
+header .mobile_nav .nav-wrap ul li span {
   display: none;
   font-size: 12px;
+}
+
+.nav-wrap ul li:hover span {
+  display: inline;
 }/*# sourceMappingURL=header.css.map */
