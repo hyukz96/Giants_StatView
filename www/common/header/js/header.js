@@ -9,8 +9,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
         menuToggle.addEventListener('click', function() {
             if (navMove.style.top === "-500%") {
-                navMove.style.top = "100%";
+                navMove.style.top = "0";
             } else {
+                navMove.style.top = "-500%";
+            }
+        });
+
+        document.addEventListener('click', function(event) {
+            if (!navMove.contains(event.target) && event.target !== menuToggle) {
                 navMove.style.top = "-500%";
             }
         });
