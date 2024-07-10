@@ -29,23 +29,37 @@
         transform: translate(-50%,-50%);
 
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: column;
         align-items: center;
-        .profile, .record {
+        gap: 10px;
+        .choice-button {
             display: flex;
-            flex-direction: column;
-            img {
-                width: 70px;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            gap: 80px;
+            .profile, .record {
+                display: flex;
+                flex-direction: column;
+                img {
+                    width: 70px;
+                }
+                p {
+                    text-align: center;
+                }
             }
-            p {
-                text-align: center;
+            .record {
+                img {
+                    padding: 12.5px 0;
+                }
             }
         }
-        .record {
-            img {
-                padding: 12.5px 0;
-            }
+        #ChoiceClose {
+            text-align: center;
+            width: 100px;
+            font-size: 18px;
+            border: 3px solid #6CACE4;
+            background-color: #fff;
         }
     }
 }
