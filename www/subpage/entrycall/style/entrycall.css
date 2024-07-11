@@ -46,6 +46,6 @@ article .content_wrap .callup #details #noCallup, article .content_wrap .callup 
 article .content_wrap .callup #details #noCallup {
   display: none;
 }
-article .content_wrap .senddown #details .info_wrap .player_info {
+article .content_wrap .senddown #details #noSenddown {
   display: none;
 }/*# sourceMappingURL=entrycall.css.map */

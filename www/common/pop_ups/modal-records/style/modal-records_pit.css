@@ -1,0 +1,47 @@
+#records {
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#records .records-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 315px;
+  height: 182px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid #6CACE4;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#records .records-body .kbo_pit, #records .records-body .future_pit {
+  width: 100%;
+}
+#records .records-body .kbo_pit h2, #records .records-body .future_pit h2 {
+  font-size: 18px;
+  padding: 0 0 5px 0;
+}
+#records .records-body .kbo_pit ul, #records .records-body .future_pit ul {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+#records .records-body .kbo_pit ul li, #records .records-body .future_pit ul li {
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+}
+#records .records-body .kbo_pit {
+  padding-bottom: 20px;
+}/*# sourceMappingURL=modal-records_pit.css.map */

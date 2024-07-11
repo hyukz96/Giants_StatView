@@ -65,22 +65,22 @@ article {
             }
         }
 
-        .senddown {
-            #details {
-                .info_wrap {
-                    .player_info {
-                        display: none;
-                    }
-                }
-            }
-        }
-
         // .senddown {
         //     #details {
-        //         #noSenddown {
-        //             display: none;
+        //         .info_wrap {
+        //             .player_info {
+        //                 display: none;
+        //             }
         //         }
         //     }
         // }
+
+        .senddown {
+            #details {
+                #noSenddown {
+                    display: none;
+                }
+            }
+        }
     }
 }
