@@ -48,23 +48,23 @@ article {
             }
         }
         //개별사항
-        // .callup {
-        //     #details {
-        //         .info_wrap {
-        //             .player_info {
-        //                 display: none;
-        //             }
-        //         }
-        //     }
-        // }
-
         .callup {
             #details {
-                #noCallup {
-                    display: none;
+                .info_wrap {
+                    .player_info {
+                        display: none;
+                    }
                 }
             }
         }
+
+        // .callup {
+        //     #details {
+        //         #noCallup {
+        //             display: none;
+        //         }
+        //     }
+        // }
 
         // .senddown {
         //     #details {
