@@ -43,7 +43,7 @@ article .content_wrap .callup #details #noCallup, article .content_wrap .callup 
   padding: 40px 0;
   font-size: 20px;
 }
-article .content_wrap .callup #details #noCallup {
+article .content_wrap .callup #details .info_wrap .player_info {
   display: none;
 }
 article .content_wrap .senddown #details .info_wrap .player_info {
